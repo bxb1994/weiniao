@@ -1,0 +1,81 @@
+.head{
+    width: 1170px;
+    height: 117px;
+    margin: 0 auto;
+}
+.head a{
+    width: 431px;
+    height: 67px;
+    float: left;
+    margin-top: 25px;
+    display: block;
+}
+.head .dianhua{
+    width: 230px;
+    height: 57px;
+    float: right;
+    margin-top: 30px;
+    background:url(../img/home/dh.png);
+    background-repeat: no-repeat;
+    background-position: 1px 15px;
+}
+.dianhua span{
+    font-size: 24px;
+    font-family: "微软雅黑";
+    line-height: 57px;
+    font-weight: bold;
+    color: #20C1F7;
+    float: right;
+    margin-right: 20px;
+}
+
+.banner{
+    width: 100%;
+    /*height: 490px;*/
+    margin: 0 auto;
+    position: relative;
+}
+.ban_nav{
+    width: 100%;
+    height: 50px;
+    background:#363D3F;
+}
+.nav{
+    height: 50px;
+    float: left;
+    margin-left: 105px;
+}
+.navbar2{
+    float: right;
+    margin-right: 105px;
+}
+.nav li{
+    float: left;
+}
+.nav a{
+    padding: 0 40px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    float: left;
+    display: block;
+}
+.nav .active{
+    background:white;
+    color:#666;
+}
+.nav a:hover{
+    background:white;
+    color: #666;
+}
+.banimg{
+    width: 100%;
+    height: 490px;
+}
+.banimg img{
+    width: 100%;
+    height: 100%;
+}

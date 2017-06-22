@@ -1,0 +1,410 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.head{
+	width: 1170px;
+	height: 117px;
+	margin: 0 auto;
+}
+.head a{
+	width: 431px;
+	height: 67px;
+	float: left;
+	margin-top: 25px;
+	display: block;
+}
+.head .dianhua{
+	width: 230px;
+	height: 57px;
+	float: right;
+	margin-top: 30px;
+	background:url(../img/home/dh.png);
+	background-repeat: no-repeat;
+	background-position: 1px 15px;
+}
+.dianhua span{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	line-height: 57px;
+	font-weight: bold;
+	color: #20C1F7;
+	float: right;
+	margin-right: 20px;
+}
+.bigban{
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+}
+.ban_nav{
+	width: 100%;
+	height: 50px;
+	background:#363D3F;
+}
+.nav{
+	height: 50px;
+	float: left;
+	margin-left: 105px;
+}
+.navbar2{
+	float: right;
+	margin-right: 105px;
+}
+.nav li{
+	float: left;
+}
+.nav a{
+	padding: 0 40px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	float: left;
+	display: block;
+}
+.nav a:hover{
+	background:white;
+	color:#666;
+}
+.nav .active{
+	background:white;
+	color:#666;
+}
+.banner{
+	width:100%;
+	height: 490px;
+	margin: 0 auto;
+	position: relative;
+}
+.ban{
+	width: 100%;
+	height: 490px;
+	overflow: hidden;
+	position: relative;
+}
+.ban div{
+	width: 100%;
+	height: 100%;
+}
+.banner .dian_box{
+	width: 105px;
+	height: 15px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom:15px;
+}
+.banner .dian_box li{
+	width: 10px;
+	height: 10px;
+	border:1px solid #20C1F7;
+	border-radius: 50%;
+	float: left;
+	margin-left: 5px;
+	cursor:pointer;
+}
+.dian{
+	background: #20C1F7;
+}
+.btnleft,.btnright{
+	width: 80px;
+	height: 100%;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 490px;
+	color: #ccc;
+	position: absolute;
+	top: 0;bottom: 0;
+	margin: auto 0;
+	cursor: pointer;
+}
+.btnright{
+	right: 0;
+}
+.free{
+	width: 340px;
+	height: 350px;
+	background: #787B80;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 65px;
+	right: 135px;
+	opacity: 0.9;
+}
+.free h1{
+	font-family:"宋体";
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+#mobile,#code{
+	width:200px;
+	padding: 3% 0 3% 15%;
+	margin-left: 13%;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color:#A9A9A9;
+	border:none;
+	margin-top: 18px;
+}
+#mobile{
+	background-image: url(../img/home/sj.png);
+	background-repeat: no-repeat;
+	background-position: 2px 3px;
+}
+#code{
+	background-image: url(../img/home/suo.png);
+	background-repeat: no-repeat;
+	background-position: 2px 3px;
+}
+#btncode,#btnreg{
+	width: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 13%;
+	margin-top: 18px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: white;
+	border:0;
+	cursor:pointer;
+}
+#btncode{
+	background: #337AB7;
+}
+#btncode:hover{
+	background: blue;
+}
+#btnreg{
+	background: #C9302C;
+}
+#btnreg:hover{
+	background: #c81623;
+}
+.free p{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-align: center;
+	color: white;
+	margin-top: 13px;
+}
+
+ /*微鸟英语，a learning style*/
+ .lstyle{
+ 	width: 1170px;
+ 	margin:0 auto;
+ }
+ .lstyle h2{
+ 	width: 100%;
+ 	margin-top: 104px;
+ 	font-family: "宋体";
+ 	text-align: center;
+ 	font-size: 30px;
+ 	float: left;
+ }
+ .lstyle .xian{
+ 	width: 100%;
+ 	height: 40px;
+ 	position: relative;
+ 	float: left;
+ }
+ .xian span{
+ 	width: 40px;
+ 	height: 2px;
+ 	background: #20C1F7;
+ 	position: absolute;
+ 	left: 0;right: 0;top:0;bottom: 0;
+ 	margin: auto;
+ }
+ .lstyle_word{
+ 	width: 100%;
+ 	font-size: 14px;
+ 	font-family: "微软雅黑";
+ 	text-align: center;
+ 	float: left;
+ }
+ .lstyle .text_center{
+ 	width: 100%;
+ 	float: left;
+ 	margin-top: 50px;
+
+ }
+ .lstyle .text_center .text_1{
+ 	width: 100%;
+ }
+ .text_center li{
+ 	width: 270px;
+ 	height: 275px;
+ 	padding: 0 6px;
+ 	float: left;
+ }
+ .text_center li img{
+ 	width: 106px;
+ 	height: 106px;
+ 	margin-left: 82px;
+ }
+.text_center h4{
+	text-align: center;
+	line-height: 25px;
+	font-family: "微软雅黑";
+}
+.text_center p{
+	width: 240px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	margin-top: 50px;
+}
+
+/*****少儿英语*****/
+.children{
+	width: 1170px;
+	height: 410px;
+	/*float: left;
+	margin-left: 100px;
+	margin-top: 20px;*/
+	margin: 20px auto;
+}
+.child{
+	width: 400px;
+	height: 200px;
+	margin-top: 120px;
+	margin-left: 100px;
+	float: left;
+	background: #fff;
+}
+.child h3{
+	font-family: "宋体";
+	font-size: 24px;
+}
+.child span{
+	width: 40px;
+	height: 2px;
+	background: #20C1F7;
+	float: left;
+	margin: 20px 0;
+}
+.child p{
+	width: 400px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	float: left;
+}
+.child a{
+	width: 100px;
+	height: 34px;
+	border:1px solid #20C1F7;
+	border-radius: 15px;
+	display: block;
+	margin-top: 30px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #20C1F7;
+	float: left;
+	text-align: center;
+	line-height: 34px;
+}
+.child a:hover{
+	background:#20C1F7;
+	color: white;
+}
+.childimg{
+	width: 610px;
+	height: 430px;
+	float:left;
+}
+.man{
+	height: 360px;
+}
+/***********媒体报导************/
+.meiti{
+	width: 1170px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 80px;
+}
+.meiti h2{
+	width: 100%;
+	text-align: center;
+	line-height:50px;
+}
+.mtxian{
+	width: 40px;
+	height: 2px;
+	background: #20C1F7;
+	margin:10px auto;
+}
+.meiti .mtimg{
+	width: 100%;
+	margin: 0 auto;
+}
+.mtimg .text_3{
+	width: 100%;
+	margin-top:60px;
+}
+.mtimg li{
+	width: 270px;
+	height: 80px;
+	margin-left: 20px;
+	float: left;
+	margin-bottom:50px;
+}
+
+
+
+
+/***********固定定位***********/
+.right_f{
+	position: fixed;
+	top: 50%;
+	right: 0;
+}
+.right_f ul{
+	width: 61px;
+}
+.right_f ul li{
+	width: 61px;
+	height: 61px;
+	border-radius: 5px;
+	margin-bottom: 2px;
+	position: relative;
+}
+.app{
+	background-image: url(../img/home/app.png);
+	background-repeat: no-repeat;
+}
+.wx{
+	background-image: url(../img/home/wx.png);
+	background-repeat: no-repeat;
+}
+.right_f ul li .r-app{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: -150px;
+	top: -35px;
+	display: none;
+}
+.r-wx{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: -150px;
+	top: -30px;
+	display: none;
+}
+.app:hover .r-app{
+	display: block;
+}
+.wx:hover .r-wx{
+	display: block;
+}

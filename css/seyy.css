@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration:none;
+}
+.se_box{
+	width: 1170px;
+	height:650px;
+	margin: 30px auto; 
+}
+.se_box h2{
+	font-size: 30px;
+	text-align: center;
+}
+.se_box p{
+	font-size: 14px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.se_img{
+	width: 1000px;
+	height: 368px;
+	margin-top: 110px;
+}

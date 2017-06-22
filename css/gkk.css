@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border:0;
+}
+.gkk{
+	width: 1349px;
+	height: 586px;
+	margin: 0 auto;
+}
+.gkk img{
+	width: 100%;
+	height: 100%;
+}
+.tyk{
+	width: 100%;
+	height: 51px;
+	background: #333;
+}
+.tyk form{
+	width: 697px;
+	height: 100%;
+	margin: 0 auto;
+}
+.tyk span{
+	font-size: 22px;
+	color: white;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	line-height: 51px;
+}
+.tyk input{
+	border-radius: 5px;
+}
+#iphone{
+	width: 180px;
+	height: 36px;
+	font-size: 14px;
+	color: #555;
+	text-indent: 0.5em;
+}
+#btn{
+	padding: 10px 11px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	background: #337AB7;
+}
+.gkk_foot{
+	width: 1349px;
+	height: 94px;
+	margin: 0 auto;
+	position: relative;
+}
+.ft{
+	width: 100%;
+	height: 100%;
+}
+.ft img{
+	width: 100%;
+	height: 100%;
+}
+.gkk_foot ul{
+	width: 540px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;right: 0;
+	margin: 0 auto;
+	bottom: 70px;
+}
+.gkk_foot ul li{
+	float: left;
+}
+.gkk_foot ul li a{
+	padding: 0 15px;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.gkk_foot ul li span{
+	color: white;
+}
+.gkk_foot p{
+	width: 520px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	position: absolute;
+	left: 0;right: 0;
+	margin: 0 auto;
+	bottom: 30px;
+}
+.gkk_foot .ft_word{
+	bottom: 3px;
+	background-image: url(../img/home/ga.png);
+	background-repeat: no-repeat;
+	background-position: 135px 10px;
+}
